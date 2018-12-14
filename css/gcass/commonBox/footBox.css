@@ -1,0 +1,10 @@
+#footBox{position: relative; z-index: 100; 
+    padding:0.625rem 2.5rem 1.75rem; box-sizing: border-box;
+    width: 100%; height:6.875rem;}
+
+#footBox:after,
+#footBox::after{content:" "; display: block; width: 100vw; height: 0;
+        position: absolute; z-index: 500; left: 50%; top: 0; margin-left: -50vw;
+        border-top:0.0625rem solid #171717;}
+
+#footBox h2 {float:left; margin-right:1.5625rem; width:4.5rem; height: 3rem; background-color:#acf;}
